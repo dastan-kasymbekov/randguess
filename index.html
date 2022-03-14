@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="style.css">
+<head>
+<body>
+<div class="container">
+    <div class="game--wrapper">
+        <h1 class="game-name">Игра Угадай Число!</h1>
+        <label for="guess" class="label">Угадай число от 1 до 10!</label>
+        <p><input type="number" id="guess" min="1" max="10" class="input" required placeholder="Введите число"></p>
+        <p><button class="btn" type="submit">Угадать!</button></p>
+        <p class="attempts" id="out">Количество попыток: 3</p>
+        <p class="promt">Подсказка:</p>
+    </div>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>

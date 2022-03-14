@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    text-align: center;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    color: #FFFFFF;
+}
+
+.game--wrapper {
+    background-color: #ca8eff;
+    width: 50%;
+    padding: 100px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.input {
+    width: 120px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+    padding: 10px;
+}
+::-webkit-input-placeholder {
+    color: #ffffff;
+}
+.label {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.btn {
+    padding: 15px 20px;
+    border-radius: 6px;
+    margin-left: 5px;
+    background-color: #e881df;
+    border: 1px solid #e881df;
+    color: #FFFFFF;
+}
+
+.attempts {
+    margin: 10px 0;
+    color: #FFFFFF;
+}
